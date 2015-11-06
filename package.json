@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-bestpratices",
+  "version": "0.0.0",
+  "description": "eslint best pratices rules enabled",
+  "scripts": {
+    "preversion": "npm run test",
+    "test": "eslint ."
+  },
+  "repository": "github.com/sonnyp/eslint-config-bestpratices",
+  "keywords": [
+    "eslint",
+    "config",
+    "rules",
+    "best pratices"
+  ],
+  "author": "Sonny Piers <sonny@fastmail.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonnyp/eslint-config-bestpratices/issues"
+  },
+  "homepage": "https://github.com/sonnyp/eslint-config-bestpratices#readme"
+}
