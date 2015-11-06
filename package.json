@@ -6,7 +6,7 @@
     "preversion": "npm run test",
     "test": "eslint ."
   },
-  "repository": "github.com/sonnyp/eslint-config-bestpratices",
+  "repository": "github.com:sonnyp/eslint-config-bestpratices",
   "keywords": [
     "eslint",
     "config",
@@ -15,8 +15,6 @@
   ],
   "author": "Sonny Piers <sonny@fastmail.net>",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sonnyp/eslint-config-bestpratices/issues"
-  },
+  "bugs": "https://github.com/sonnyp/eslint-config-bestpratices/issues",
   "homepage": "https://github.com/sonnyp/eslint-config-bestpratices#readme"
 }
