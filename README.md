@@ -22,7 +22,7 @@ JSON .eslintrc
 ```
 {
   extends: [
-    'eslint-config-bestpratices'
+    './node_modules/eslint-config-bestpratices/.eslintrc'
   ]
 }
 ```
@@ -31,5 +31,5 @@ YAML .eslintrc
 
 ```
 extends:
-  - 'eslint-config-bestpratices'
+  - './node_modules/eslint-config-bestpratices/.eslintrc'
 ```
