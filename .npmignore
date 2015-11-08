@@ -1,2 +1,6 @@
 .editorconfig
+.eslintrc
 .travis.yml
+
+build
+default.yaml
