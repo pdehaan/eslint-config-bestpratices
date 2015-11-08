@@ -3,7 +3,8 @@
   "version": "1.0.4",
   "description": "eslint best pratices rules enabled",
   "scripts": {
-    "preversion": "npm test && npm run test",
+    "preversion": "npm test && npm run build",
+    "postversion": "npm run clean",
     "clean": "rm .eslintrc default.json",
     "build": "./build",
     "test": "npm run build && eslint . && npm run clean"
