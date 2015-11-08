@@ -1,12 +1,11 @@
 {
   "name": "eslint-config-bestpratices",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "eslint best pratices rules enabled",
   "scripts": {
     "preversion": "npm test",
     "postversion": "npm run clean",
     "prepublish": "npm run build",
-    "postversion": "npm run clean",
     "clean": "rm .eslintrc default.json",
     "build": "./build",
     "test": "npm run build && eslint . && npm run clean"
