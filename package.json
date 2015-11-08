@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bestpratices",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "eslint best pratices rules enabled",
   "scripts": {
     "preversion": "npm test && npm run build",
