@@ -10,7 +10,7 @@ This [eslint](http://eslint.org/) config provides all eslint [Best Pratices](htt
 ### Usage
 
 ```
-npm install eslint-config-bestpratices --save
+npm install eslint eslint-config-bestpratices --save
 ```
 
 and extend this configuration, see [Extending Configuration Files](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) eslint documentation.
@@ -22,7 +22,7 @@ JSON .eslintrc
 ```
 {
   extends: [
-    './node_modules/eslint-config-bestpratices/.eslintrc'
+    'bestpratices'
   ]
 }
 ```
@@ -31,5 +31,5 @@ YAML .eslintrc
 
 ```
 extends:
-  - './node_modules/eslint-config-bestpratices/.eslintrc'
+  - 'bestpratices'
 ```
